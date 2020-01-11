@@ -1,10 +1,26 @@
 main {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 100px 100px 100px;
     grid-gap: 0;
+    margin-top: .5rem;
 }
 
 app-square {
     border: 1px solid gray;
-    height: 200px;
+    height: 100px;
+}
+
+h4 {
+    margin: .7rem 0;
+    padding: 0;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+}
+
+.head button {
+    flex: 0 0;
+    max-width: 300px;
 }
